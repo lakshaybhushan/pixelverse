@@ -9,7 +9,75 @@
 
 </p>
 
-![image](https://github.com/lakshaybhushan/pixelverse-v2/assets/74349407/50917157-a764-4b11-8f6e-0a388678f910)
-![image](https://github.com/lakshaybhushan/pixelverse-v2/assets/74349407/a74605af-36ee-4bb3-b4c2-35826d4d6356)
+<p align="center"><b>Powered by <a href="https://huggingface.co/" target="_blank" rel="noopener noreferrer">Hugging Face 🤗</a></b></p>
 
-<p align="center">Powered by <a href="https://huggingface.co/" target="_blank" rel="noopener noreferrer">Hugging Face 🤗</a></p>
+![GithubBanner](./public/images/githubBanner.png)
+
+## Project Structure
+
+```
+$PROJECT_ROOT
+├── public/                         # Static Files
+│   └── images/                     # Images
+├── src/
+│   ├── app/                        # App Folder
+│   │   ├── examples/
+│   │   │   └── page.tsx            # Examples Page
+│   │   ├── layout.tsx              # Layout Provider
+│   │   ├── page.tsx                # Main Page
+│   │   └── ...
+│   ├── components/                 # Reusable Components
+│   │   ├── ui/
+│   │   │   └── button.tsx
+│   │   |   └── ...
+│   │   ├── image-generation.tsx    # Image Generation API
+│   │   ├── theme-provider.tsx      # Theme Provider
+│   │   └── ...
+│   └── lib/                        # Utils
+│   |   └── utils.ts
+└──────────────────────────────────── END
+```
+
+## Getting Started
+
+To run the project locally, you need to have [Node.js](https://nodejs.org/en/) installed.
+
+```bash
+# Clone the repository
+git clone https://github.com/lakshaybhushan/pixelverse
+```
+
+```bash
+# Install dependencies
+pnpm install
+```
+
+```bash
+# Run the development server
+pnpm dev
+```
+
+## Features
+
+- [x] High Quality AI Powered Image Generation for `Free`
+- [x] Runs on Latest `Stable Diffusion XL` Model
+- [x] Download Images with One Click `(No Sign Up Required)`
+- [x] Generates Images in `1024 x 1024` Resolution
+- [x] Dark Mode Support
+- [x] Easy to Use UI
+- [x] Responsive Design
+- [x] Examples Page for Inspiration and Ideas
+
+## Caveats
+
+- [ ] Image Generation is Slow and can take upto `45 Seconds` or more.
+- [ ] Runs on Inference API, which is not meant for Production.
+- [ ] No Support for Custom Filters & Negative Prompts.
+- [ ] No Support for Image Editing.
+- [ ] Sometimes, the Image Generation may fail due to `Timeouts`. In that case, please try again.
+
+## Resources
+
+- [Next.js](https://nextjs.org/)
+- [shadcn/ui](https://ui.shadcn.com/)
+- [Stable Diffusion XL](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0)
