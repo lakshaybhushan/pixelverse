@@ -37,7 +37,7 @@ export default function PixelVerse() {
           </Link>
           . The source code is available on{" "}
           <Link
-            href="https://github.com/lakshaybhushan/pixelverse-v2"
+            href="https://github.com/lakshaybhushan/pixelverse"
             target="_blank"
             rel="noopenner noreferrer"
             className="font-medium underline underline-offset-4 transition duration-150 ease-linear md:hover:text-primary"
