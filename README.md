@@ -11,7 +11,7 @@
 
 <p align="center"><b>Powered by <a href="https://huggingface.co/" target="_blank" rel="noopener noreferrer">Hugging Face 🤗</a></b></p>
 
-![GithubBanner](./public/images/githubBanner.png)
+![GithubBanner](./src/app/opengraph-image.png)
 
 ## Project Structure
 
