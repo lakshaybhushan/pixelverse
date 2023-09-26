@@ -71,8 +71,7 @@ const ImageGenerator: React.FC = () => {
     <section className="flex w-screen items-center justify-center md:w-full">
       <form
         onSubmit={handleSubmit}
-        className="grid w-screen gap-2.5 px-10 md:w-1/2 md:px-0"
-      >
+        className="grid w-screen gap-2.5 px-10 md:w-1/2 md:px-0">
         <Textarea
           name="input"
           value={inputText}

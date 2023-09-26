@@ -3,12 +3,37 @@ import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Toaster } from "@/components/ui/toaster";
+import { siteConfig } from "@/lib/site";
 
 const outfit = Outfit({ subsets: ["latin"] });
-
 export const metadata: Metadata = {
-  title: "PixelVerse",
-  description: "Generate high quality images using Stable Diffusion AI",
+  title: siteConfig.name,
+  description: siteConfig.description,
+  metadataBase: new URL(siteConfig.url),
+  authors: [
+    {
+      name: "lakshaybhushan",
+      url: "https://lakshb.me",
+    },
+  ],
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: siteConfig.url,
+    title: siteConfig.name,
+    description: siteConfig.description,
+    siteName: siteConfig.name,
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: siteConfig.name,
+    description: siteConfig.description,
+    images: [`${siteConfig.url}/opengraph-image.png`],
+    creator: "@bhushanlakshay",
+  },
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
@@ -23,8 +48,7 @@ export default function RootLayout({
           attribute="class"
           defaultTheme="system"
           enableSystem
-          disableTransitionOnChange
-        >
+          disableTransitionOnChange>
           {children}
           <Toaster />
         </ThemeProvider>
