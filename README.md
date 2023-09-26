@@ -59,22 +59,26 @@ pnpm dev
 
 ## Features
 
-- [x] High Quality AI Powered Image Generation for `Free`
-- [x] Runs on Latest `Stable Diffusion XL` Model
-- [x] Download Images with One Click `(No Sign Up Required)`
-- [x] Generates Images in `1024 x 1024` Resolution
-- [x] Dark Mode Support
-- [x] Easy to Use UI
-- [x] Responsive Design
-- [x] Examples Page for Inspiration and Ideas
+- High Quality AI Powered Image Generation for `Free`
+- Runs on Latest `Stable Diffusion XL` Model
+- Download Images with One Click `(No Sign Up Required)`
+- Generates Images in `1024 x 1024` Resolution
+- Dark Mode Support
+- Easy to Use UI
+- Responsive Design
+- Examples Page for Inspiration and Ideas
 
 ## Caveats
 
-- [ ] Image Generation is Slow and can take upto `45 Seconds` or more.
-- [ ] Runs on Inference API, which is not meant for Production.
-- [ ] No Support for Custom Filters & Negative Prompts.
-- [ ] No Support for Image Editing.
-- [ ] Sometimes, the Image Generation may fail due to `Timeouts`. In that case, please try again.
+- Image Generation is Slow and can take upto `45 Seconds` or more.
+- Runs on Inference API, which is not meant for Production.
+- No Support for Custom Filters & Negative Prompts.
+- No Support for Image Editing.
+- Sometimes, the Image Generation may fail due to `Timeouts`. In that case, please try again.
+
+## Contributing
+
+Contributions are always welcome! Feel free to open any issues or pull requests.
 
 ## Resources
 
